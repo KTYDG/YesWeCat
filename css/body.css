@@ -22,7 +22,7 @@ body {
     text-align: center;
 
     font-size: 64px;
-    color: rgb(255, 145, 240);
+    color: rgb(255, 255, 255);
     font-family: "TT Milks Demi Bold";
     text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
@@ -37,7 +37,7 @@ body {
 .figures h1 {
     margin: 0px;
     font-size: 64px;
-    color: rgb(255, 145, 240);
+    color: rgb(255, 255, 255);
     font-family: "TT Milks Demi Bold";
     text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
             1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
