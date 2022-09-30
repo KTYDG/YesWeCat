@@ -24,7 +24,8 @@ body {
     font-size: 64px;
     color: rgb(255, 145, 240);
     font-family: "TT Milks Demi Bold";
-    -webkit-text-stroke: 3.5px black;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+            1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .figures {
@@ -38,7 +39,8 @@ body {
     font-size: 64px;
     color: rgb(255, 145, 240);
     font-family: "TT Milks Demi Bold";
-    -webkit-text-stroke: 3.5px black;
+    text-shadow: 2px 0 black, -2px 0 black, 0 2px black, 0 -2px black,
+            1px 1px black, -1px -1px black, 1px -1px black, -1px 1px black;
 }
 
 .bg div {
