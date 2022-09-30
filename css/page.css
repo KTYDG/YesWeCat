@@ -1,0 +1,47 @@
+.page {
+    display: block;
+    margin: auto;
+    padding: 120 0 0;
+    width: 1200px;
+    height: 600px;
+}
+
+.info {
+    width: 50%;
+    float: left;
+    display: block;
+    text-align: center;
+}
+.info p {
+    display: block;
+    font-size: 56px;
+    color: rgb(255, 145, 240);
+    font-family: "TT Milks Demi Bold";
+    -webkit-text-stroke: 3px black;
+}
+
+.pictures {
+    width: 50%;
+    height: 100%;
+    float: left;
+
+    display: flex;
+    justify-content: center;
+
+}
+.table {
+    display: block;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+.row span {
+    padding: 20px;
+}
+.row img {
+    border-radius: 80px;
+    width: auto;
+    height: 240px;
+}
+
