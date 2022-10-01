@@ -1,17 +1,18 @@
 .header {
-    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    height: 120px;
+    height: 130px;
 
     display: flex;
     justify-content: center;
 
     background: linear-gradient(180deg,
-            #0F0F0F 0%,
+            #000000 0%,
             rgba(140, 140, 140, 0) 100%);
     background-blend-mode: saturation;
+
+    padding-bottom: 30px;
 }
 
 .header div {
@@ -35,6 +36,9 @@
     padding-top: 15px;
 }
 
+.navbar {
+    padding: 0;
+}
 .navbar li {
     display: inline;
 }
@@ -60,4 +64,43 @@
 }
 .tim__text {
     color: rgb(141, 100, 216);
+}
+
+@media (max-width: 1220px) {
+    .navbar a {
+        padding: 15px;
+    }
+    .cat-land {
+        padding: 20px;
+    }
+}
+@media (max-width: 1050px) {
+    .navbar a {
+        padding: 0px 15px 0px 15px;
+    }
+    .cat-land {
+        padding: 20px 0 0 0;
+    }
+    .header {
+        height: 200px;
+    }
+    .header div {
+        justify-content: unset;
+        flex-direction: column;
+    }
+    .navbar {
+        margin: 10px;
+    }
+}
+@media (max-width: 700px) {
+    .header {
+        height: 320px;
+        padding: 0;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        text-align: center;
+    }
 }

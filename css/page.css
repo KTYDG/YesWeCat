@@ -1,9 +1,15 @@
 .page {
-    display: block;
-    margin: auto;
-    padding: 120 0 0;
+    width: 100%;
+    height: fit-content;
+
+    display: flex;
+    justify-content: center;
+}
+.subpage {
     width: 1200px;
-    height: 600px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .info {
@@ -34,7 +40,7 @@
 
 .pictures {
     width: 50%;
-    height: 100%;
+    height: fit-content;
     float: left;
 
     display: flex;
@@ -42,7 +48,8 @@
 
 }
 .table {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 .row {
     display: flex;
@@ -54,6 +61,37 @@
 .row img {
     border-radius: 80px;
     width: auto;
-    height: 240px;
+    height: 280px;
 }
 
+@media (max-width: 1160px) {
+    .row img {
+        border-radius: 45px;
+        width: auto;
+        height: 220px;
+    }
+}
+@media (max-width: 992px) {
+    .subpage {
+        flex-direction: column;
+    }
+    .row img {
+        height: 300px;
+    }
+    .pictures {
+        width: 100%;
+    }
+    .info {
+        float: none;
+        width: 100%;
+    }
+    .info p {
+        padding: auto 20px;
+    }
+}
+@media (max-width: 700px) {
+    .row {
+        align-items: center;
+        flex-direction: column;
+    }
+}
