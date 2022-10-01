@@ -14,11 +14,14 @@
 
 .info {
     width: 50%;
+    height: fit-content;
     float: left;
     display: block;
     text-align: center;
 }
 .info p {
+    margin-top: 0;
+    margin-bottom: 40px;
     display: block;
     font-size: 56px;
     color: rgb(255, 145, 240);

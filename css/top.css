@@ -94,7 +94,7 @@
 }
 @media (max-width: 700px) {
     .header {
-        height: 320px;
+        height: 290px;
         padding: 0;
     }
     .navbar {
